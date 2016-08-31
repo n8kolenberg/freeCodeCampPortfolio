@@ -55,6 +55,15 @@ body {
  	color: grey;
  }
 
+.introRows {
+	padding: 15px;
+}
+
+.introRows img {
+	margin-bottom: 20px;
+}
+
+
 /* End Intro */
 
 /* Portfolio */
@@ -71,6 +80,32 @@ body {
 	color: whitesmoke;
 }
 /* End Custom */
+@media (min-width: 992px) {
+	.introRows img {
+		margin-left: 40px;
+	}
+}
 
+
+@media (min-width: 1132px) {
+	.introRows img {
+		margin-left: 65px;
+	}
+	.skillsList {
+		margin-left: 20px;
+	}
+
+	.introText {
+		margin-left: 45px;
+	}
+}
+
+
+
+/* Media Queries */
+
+
+
+/* End Media Queries */
 
 
